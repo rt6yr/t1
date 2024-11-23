@@ -170,23 +170,6 @@ a.tag,
 }
 
 
-/* GRID CELL */
-.grid--cell {	
-	position: relative; 
-	
-	&:nth-of-type(1) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen//ai-generated-7770511_1.avif"); }
-	&:nth-of-type(2) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen/artificial-intelligence-7965009_1.avif"); }
-	&:nth-of-type(3) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen/ai-generated-7889363_1.avif"); }
-	&:nth-of-type(4) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen/artificial-intelligence-7889375_1.avif"); }
-	&:nth-of-type(5) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai-generated-7889363.webp"); }
-	&:nth-of-type(6) .preview-image { background-image: url("https://siddh-kivtechs.github.io/"); }
-	&:nth-of-type(7) .preview-image { background-image: url("https://siddh-kivtechs.github.io/"); }
-	&:nth-of-type(8) .preview-image { background-image: url("https://siddh-kivtechs.github.io/"); }
-	&:nth-of-type(9) .preview-image { background-image: url("https://siddh-kivtechs.github.io/"); }
-	&:nth-of-type(10) .preview-image { background-image: url("https://siddh-kivtechs.github.io/"); }
-	&:nth-of-type(11) .preview-image { background-image: url("https://siddh-kivtechs.github.io/"); }
-	&:nth-of-type(12) .preview-image { background-image: url("https://siddh-kivtechs.github.io/"); }
-}
 
 /* GRID ITEM */
 .grid--item {	

@@ -10,14 +10,34 @@
 
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/fontawesome.js"></script>
 
-<script defer src="https://assets.codepen.io/2392/solid.min.js"></script>
-<script defer src="https://assets.codepen.io/2392/regular.min.js"></script>
-<script defer src="https://assets.codepen.io/2392/brands.min.js"></script>
-<script defer src="https://assets.codepen.io/2392/light.min.js"></script>
-<script defer src="https://assets.codepen.io/2392/duotone.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<script defer src="js/solid.min.js"></script>
+<script defer src="js/regular.min.js"></script>
+<script defer src="js/brands.min.js"></script>
+<script defer src="js/light.min.js"></script>
+<script defer src="js/duotone.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> -->
+<script defer src="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"></script>
 <link rel="stylesheet" href="./style.css">
+<style type="text/css">
+	/* GRID CELL */
+.grid--cell {	
+	position: relative; 
+	
+	&:nth-of-type(1) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen//ai-generated-7770511_1.avif"); }
+	&:nth-of-type(2) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen/artificial-intelligence-7965009_1.avif"); }
+	&:nth-of-type(3) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen/ai-generated-7889363_1.avif"); }
+	&:nth-of-type(4) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen/artificial-intelligence-7889375_1.avif"); }
+	&:nth-of-type(5) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen/ai-generated-8817541_1280.avif"); }
+	&:nth-of-type(6) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen/books-7681925_1280.avif"); }
+	&:nth-of-type(7) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen/ai-generated-8659195_1280.avif"); }
+	&:nth-of-type(8) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen/DeWatermark.ai_1732346777610.avif"); }
+	&:nth-of-type(9) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen/ai-generated-8934207_1280.avif"); }
+	&:nth-of-type(10) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen/retro-flyers-9038350_1280.avif"); }
+	&:nth-of-type(11) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen/ai-generated-8764468_1280.avif"); }
+	&:nth-of-type(12) .preview-image { background-image: url("https://siddh-kivtechs.github.io/ai_image_gen/ai-generated-7934798_1280.avif"); }
+}
 
+</style>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -56,13 +76,13 @@
 
 				<div class="hover--options">
 					
-					<a href="#" class="series button">
-						<span class="icon-title"><i class="fad fa-books"></i> Upcomming</span>
+					<a href="https://katsy.kivtechs.cloud/" class="series button">
+						<span class="icon-title"><i class="fad fa-robot"></i> Upcomming</span>
 						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
 					</a>
 					
-					<a href="#" class="latest button">
-						<span class="icon-title"><i class="far fa-image"></i> Latest</span>
+					<a href="https://katsy.kivtechs.cloud/" class="latest button">
+						<span class="icon-title"><i class="far fa-user-astronaut"></i> Latest</span>
 						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
 					</a>
 					
@@ -265,12 +285,12 @@
 				<div class="hover--options">
 					
 					<a href="#" class="series button">
-						<span class="icon-title"><i class="fad fa-books"></i> Series</span>
+							<span class="icon-title"><i class="fad fa-robot"></i> Upcomming</span>
 						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
 					</a>
 					
 					<a href="#" class="latest button">
-						<span class="icon-title"><i class="far fa-image"></i> Latest</span>
+						<span class="icon-title"><i class="far fa-user-astronaut"></i> Latest</span>
 						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
 					</a>
 					
@@ -283,112 +303,377 @@
 
 	<!-- 6 -->
 	<div class="grid--cell">
-		<article class="grid--item">
+	<article class="grid--item">
+		
+		<div class="preview--container">
 			
-			<div class="preview--container">
+			<a href="#" class="preview-image--container">
+				<div class="preview-image"></div>
+			</a>
+			
+			<div class="meta--container">
+				<a href="#" class="issue">AI</a>
+				<a href="#" class="page">Document Generator</a>
+			</div>
+			
+		</div>
+		
+		<div class="content--container">
+
+			<div class="title--container">
+				<a class="title--text" href="#">Docsy</a>
+			</div>
+
+			<div class="tags--overflow-container">
+				<ul class="tags--container">
+					<li><a href="#" class="tag">documents</a></li>
+					<li><a href="#" class="tag">PDF generator</a></li>
+					<li><a href="#" class="tag">automation</a></li>
+					<li><a href="#" class="tag">reports</a></li>
+					<li><a href="#" class="tag">contracts</a></li>
+					<li><a href="#" class="tag">AI tools</a></li>
+					<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+				</ul>
+			</div>
+
+			<div class="hover--options">
 				
-				<a href="#" class="preview-image--container">
-					<div class="preview-image"></div>
+				<a href="#" class="series button">
+					<span class="icon-title"><i class="fad fa-books"></i> Templates</span>
+					<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
 				</a>
 				
-				<div class="meta--container">
-					<a href="#" class="issue">Issue XX</a>
-					<a href="#" class="page">Page YY</a>
-				</div>
+				<a href="#" class="latest button">
+					<span class="icon-title"><i class="far fa-image"></i> Latest</span>
+					<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+				</a>
 				
+				<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
 			</div>
-			
-			<div class="content--container">
+		</div>
 
-				<div class="title--container">
-					<a class="title--text" href="#">Atque Facilis Maleti in Magni Nobis</a>
-				</div>
+	</article>
+</div>
 
-				<div class="tags--overflow-container">
-					<ul class="tags--container">
-						<li><a href="#" class="tag">Lista e Fortna</a></li>
-						<li><a href="#" class="tag">Libero</a></li>						
-						<li><a href="#" class="tag">Turpis</a></li>
-						<li><a href="#" class="tag">Urna</a></li>
-						<li><a href="#" class="tag">Praesent Semper</a></li>
-						<li><a href="#" class="tag">Morbi Leo</a></li>
-						<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
-					</ul>
-				</div>
-
-				<div class="hover--options">
-					
-					<a href="#" class="series button">
-						<span class="icon-title"><i class="fad fa-books"></i> Series</span>
-						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
-					</a>
-					
-					<a href="#" class="latest button">
-						<span class="icon-title"><i class="far fa-image"></i> Latest</span>
-						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
-					</a>
-					
-					<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
-				</div>
-			</div>
-
-		</article>
-	</div>
 	<!-- 7 -->
 	<div class="grid--cell">
-		<article class="grid--item">
+	<article class="grid--item">
+		
+		<div class="preview--container">
 			
-			<div class="preview--container">
+			<a href="#" class="preview-image--container">
+				<div class="preview-image"></div>
+			</a>
+			
+			<div class="meta--container">
+				<a href="#" class="issue">AI</a>
+				<a href="#" class="page">Speech-to-Text</a>
+			</div>
+			
+		</div>
+		
+		<div class="content--container">
+
+			<div class="title--container">
+				<a class="title--text" href="#">Vocalize</a>
+			</div>
+			
+			<div class="tags--overflow-container">
+				<ul class="tags--container">					
+					<li><a href="#" class="tag">speech recognition</a></li>
+					<li><a href="#" class="tag">voice to text</a></li>
+					<li><a href="#" class="tag">real-time transcription</a></li>
+					<li><a href="#" class="tag">language models</a></li>
+					<li><a href="#" class="tag">dictation</a></li>
+					<li><a href="#" class="tag">AI tools</a></li>
+					<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+				</ul>
+			</div>
+
+			<div class="hover--options">
 				
-				<a href="#" class="preview-image--container">
-					<div class="preview-image"></div>
+				<a href="#" class="series button">
+					<span class="icon-title"><i class="fad fa-books"></i> Applications</span>
+					<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
 				</a>
 				
-				<div class="meta--container">
-					<a href="#" class="issue">Issue XX</a>
-					<a href="#" class="page">Page YY</a>
-				</div>
+				<a href="#" class="latest button">
+					<span class="icon-title"><i class="far fa-image"></i> Latest</span>
+					<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+				</a>
 				
+				<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
 			</div>
-			
-			<div class="content--container">
+		</div>
 
-				<div class="title--container">
-					<a class="title--text" href="#">Illum ut Commodi Modi Sapiente</a>
-				</div>
-				
-				<div class="tags--overflow-container">
-					<ul class="tags--container">					
-						<li><a href="#" class="tag">Quisus</a></li>				
-						<li><a href="#" class="tag">Eris Culpa</a></li>
-						<li><a href="#" class="tag">Morbi Leo</a></li>
-						<li><a href="#" class="tag">Turpis Egestas</a></li>						
-						<li><a href="#" class="tag">Elementi</a></li>
-						<li><a href="#" class="tag">Urna</a></li>
-						<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
-					</ul>
-				</div>
+	</article>
+</div>
 
-				<div class="hover--options">
-					
-					<a href="#" class="series button">
-						<span class="icon-title"><i class="fad fa-books"></i> Series</span>
-						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
-					</a>
-					
-					<a href="#" class="latest button">
-						<span class="icon-title"><i class="far fa-image"></i> Latest</span>
-						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
-					</a>
-					
-					<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
-				</div>
-			</div>
-
-		</article>
-	</div>
 	
 	<!-- 8 -->
+<div class="grid--cell">
+	<article class="grid--item">
+		
+		<div class="preview--container">
+			
+			<a href="#" class="preview-image--container">
+				<div class="preview-image"></div>
+			</a>
+			
+			<div class="meta--container">
+				<a href="#" class="issue">AI</a>
+				<a href="#" class="page">Text-to-Speech</a>
+			</div>
+			
+		</div>
+		
+		<div class="content--container">
+
+			<div class="title--container">
+				<a class="title--text" href="#">Vocaloid</a>
+			</div>
+
+			<div class="tags--overflow-container">
+				<ul class="tags--container">
+					<li><a href="#" class="tag">speech synthesis</a></li>
+					<li><a href="#" class="tag">natural voices</a></li>
+					<li><a href="#" class="tag">TTS engines</a></li>
+					<li><a href="#" class="tag">AI audio</a></li>
+					<li><a href="#" class="tag">voice output</a></li>
+					<li><a href="#" class="tag">text narration</a></li>
+					<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+				</ul>
+			</div>
+
+			<div class="hover--options">
+				
+				<a href="#" class="series button">
+					<span class="icon-title"><i class="fad fa-books"></i> Applications</span>
+					<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+				</a>
+				
+				<a href="#" class="latest button">
+					<span class="icon-title"><i class="far fa-image"></i> Latest</span>
+					<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+				</a>
+				
+				<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
+			</div>
+		</div>
+
+	</article>
+</div>
+
+<div class="grid--cell">
+	<article class="grid--item">
+		
+		<div class="preview--container">				
+			<a href="#" class="preview-image--container">
+				<div class="preview-image"></div>
+			</a>
+			
+			<div class="meta--container">
+				<a href="#" class="issue">AI</a>
+				<a href="#" class="page">Password Generator</a>
+			</div>				
+		</div>
+		
+		<div class="content--container">
+			<div class="title--container">
+				<a class="title--text" href="#"> Passi </a>
+			</div>
+			
+			<div class="tags--overflow-container">
+				<ul class="tags--container">
+					<li><a href="#" class="tag">passwords</a></li>
+					<li><a href="#" class="tag">security</a></li>
+					<li><a href="#" class="tag">encryption</a></li>
+					<li><a href="#" class="tag">cybersecurity</a></li>
+					<li><a href="#" class="tag">authentication</a></li>
+					<li><a href="#" class="tag">AI tools</a></li>
+					<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+				</ul>
+			</div>
+
+			<div class="hover--options">
+				
+				<a href="#" class="series button">
+					<span class="icon-title"><i class="fad fa-books"></i> Upcoming</span>
+					<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+				</a>
+				
+				<a href="#" class="latest button">
+					<span class="icon-title"><i class="far fa-image"></i> Latest</span>
+					<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+				</a>
+				
+				<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
+			</div>
+		</div>
+
+	</article>
+</div>
+
+	
+<div class="grid--cell">
+	<article class="grid--item">
+		
+		<div class="preview--container">
+			
+			<a href="#" class="preview-image--container">
+				<div class="preview-image"></div>
+			</a>
+			
+			<div class="meta--container">
+				<a href="#" class="issue">AI</a>
+				<a href="#" class="page">Clip Generator</a>
+			</div>
+			
+		</div>
+		
+		<div class="content--container">
+
+			<div class="title--container">
+				<a class="title--text" href="#">Clipwise</a>
+			</div>
+			
+			<div class="tags--overflow-container">
+				<ul class="tags--container">
+					<li><a href="#" class="tag">video snips</a></li>
+					<li><a href="#" class="tag">AI editor</a></li>
+					<li><a href="#" class="tag">dynamic highlights</a></li>
+					<li><a href="#" class="tag">motion analysis</a></li>
+					<li><a href="#" class="tag">video trimming</a></li>
+					<li><a href="#" class="tag">content creation</a></li>
+					<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+				</ul>
+			</div>
+
+			<div class="hover--options">
+				
+				<a href="#" class="series button">
+					<span class="icon-title"><i class="fad fa-books"></i> Tutorials</span>
+					<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+				</a>
+				
+				<a href="#" class="latest button">
+					<span class="icon-title"><i class="far fa-image"></i> Updates</span>
+					<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+				</a>
+				
+				<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
+			</div>
+		</div>
+
+	</article>
+</div>
+
+
+<div class="grid--cell">
+	<article class="grid--item">
+		
+		<div class="preview--container">
+			
+			<a href="#" class="preview-image--container">
+				<div class="preview-image"></div>
+			</a>
+			
+			<div class="meta--container">
+				<a href="#" class="issue">AI</a>
+				<a href="#" class="page">Clip Generator</a>
+			</div>
+			
+		</div>
+		
+		<div class="content--container">
+
+			<div class="title--container">
+				<a class="title--text" href="#">Snipify</a>
+			</div>
+			
+			<div class="tags--overflow-container">
+				<ul class="tags--container">
+					<li><a href="#" class="tag">video clips</a></li>
+					<li><a href="#" class="tag">AI trimming</a></li>
+					<li><a href="#" class="tag">content editing</a></li>
+					<li><a href="#" class="tag">dynamic visuals</a></li>
+					<li><a href="#" class="tag">snippet maker</a></li>
+					<li><a href="#" class="tag">AI tools</a></li>
+					<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+				</ul>
+			</div>
+
+			<div class="hover--options">
+				
+				<a href="#" class="series button">
+					<span class="icon-title"><i class="fad fa-books"></i> Tutorials</span>
+					<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+				</a>
+				
+				<a href="#" class="latest button">
+					<span class="icon-title"><i class="far fa-image"></i> Explore</span>
+					<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+				</a>
+				
+				<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
+			</div>
+		</div>
+
+	</article>
+</div>
+<div class="grid--cell">
+	<article class="grid--item playful-theme">
+		
+		<div class="preview--container">
+			
+			<a href="#" class="preview-image--container">
+				<div class="preview-image">
+				
+				</div>
+			</a>
+			
+			<div class="meta--container">
+				<a href="#" class="issue">AI Shenanigans</a>
+				<a href="#" class="page">Just for Fun</a>
+			</div>
+			
+		</div>
+		
+		<div class="content--container">
+
+			<div class="title--container">
+				<a class="title--text" href="#">Chimp Shenanigans</a>
+			</div>
+			
+			<div class="tags--overflow-container">
+				<ul class="tags--container">
+					<li><a href="#" class="tag">banana logic</a></li>
+					<li><a href="#" class="tag">meme generator</a></li>
+					<li><a href="#" class="tag">random silliness</a></li>
+					<li><a href="#" class="tag">chimp AI</a></li>
+					<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+				</ul>
+			</div>
+
+			<div class="hover--options">
+				
+				<a href="#" class="series button">
+					<span class="icon-title"><i class="fad fa-laugh"></i> Series</span>
+					<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+				</a>
+				
+				<a href="#" class="latest button">
+					<span class="icon-title"><i class="far fa-smile"></i> Latest Jokes</span>
+					<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+				</a>
+				
+				<a href="#" class="follow button"><i class="fas fa-plus-circle"></i> Go Bananas</a>
+			</div>
+		</div>
+
+	</article>
+</div>
+	<!-- 11 -->
 	<div class="grid--cell">
 		<article class="grid--item">
 			
@@ -408,16 +693,17 @@
 			<div class="content--container">
 
 				<div class="title--container">
-					<a class="title--text" href="#">Velit at Erum Vero Non</a>
+					<a class="title--text" href="#">Santium</a>
 				</div>
 
 				<div class="tags--overflow-container">
 					<ul class="tags--container">
-						<li><a href="#" class="tag">Arum Vero</a></li>
-						<li><a href="#" class="tag">Delect a Distinctio</a></li>
-						<li><a href="#" class="tag">Lista e Fortna</a></li>
-						<li><a href="#" class="tag">Libero</a></li>
-						<li><a href="#" class="tag">Facere</a></li>
+						<li><a href="#" class="tag">Volutpat</a></li>
+						<li><a href="#" class="tag">Scelerisque</a></li>
+						<li><a href="#" class="tag">Turpis Galo</a></li>
+						<li><a href="#" class="tag">Quisus</a></li>
+						<li><a href="#" class="tag">At Tempo</a></li>
+						<li><a href="#" class="tag">Distincto a Tet</a></li>
 						<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
 					</ul>
 				</div>
@@ -440,9 +726,10 @@
 
 		</article>
 	</div>
-	<!--  -->
-		</article>
-	</div>
+
+	<!-- 12 -->
+
+
 
 </section>
 <!-- partial -->
